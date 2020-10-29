@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    
+    background-color: white
+}
+header{
+    position: sticky;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:60px;
+    background-color:#ffffff;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    padding:0px 5%;
+    cursor: pointer;
+ 
+    
+   }
+   nav ul{
+    display: flex;
+    list-style: none;
+    margin-right:  30px;
+    
+    
+   }
+   nav ul a{
+       text-decoration: none;
+       margin: 25px;
+       color: #2d2a2a;
+       
+   }
+      a:hover{
+      background-color:black;
+       color:white;
+       border-radius: 2px;
+     
+       
+      }
+
+    
+    
+   
+   .logo{
+    font-family:RoadTest;
+    color:#000000;
+    font-size: 30px;
+   }
+   .logo:hover{
+    background-color:black;
+       color:white;
+       border-radius: 4px;
+       padding: 5px;
+       transform: scale(1.3);
+       
+   }
+   .active{
+    color:#2d2a2a;
+    font-weight:bold;
+   }
+  .main{
+  background: url(bg12.png);
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    width: 99%;
+    height: 550px;
+    border: 1.5px solid #f1f1f1;
+  }
+ .main .text{
+    margin-top: 300px;
+    margin-left: 50px;
+ }
+ .text .hello{
+     font-size: 40px;
+     
+ }
+ .text .name{
+     font-size:50px ;
+     margin-left: 45px;
+ }
+ .text .skill{
+     font-size: 30px;
+     margin-left: 45px;
+ }
+ button{
+     width: 125px;
+     height: 35px;
+     margin-left: 110px;
+     margin-top: 35px;
+ }
+ #aboutme{
+     border: 2px solid rgb(218, 209, 209);
+     margin-left: 80px;
+     margin-right: 80px;
+     margin-top: 0;
+ width: auto;
+ border-radius: 15px;
+ /* box-shadow: 10px 10px 10px 10px rgb(10, 9, 9); */
+ box-shadow: 10px 10px 10px 10px rgb(8, 6, 6) inset;
+ padding: 25px;
+ height: 370px;
+ display: flex;
+ }
+ #aboutme img{
+     width: 300px;
+     height: 350px;
+     float: left;
+     padding: 5px;
+     border: 1.5px solid #f1f1f1;
+     border-radius: 5px;
+     box-shadow:10px 10px 10px 10px rgb(8, 6, 6);
+ }
+/* 
+#aboutme h3{
+    float: right;
+    font-size: 30px;
+    margin-right: 500px;
+} */
+#aboutme h2{
+   font-size: 40px;
+  margin-left: 250px;
+}
+#aboutme h3{
+    font-size: 30px;
+   margin-left: 200px;
+ }
+ #aboutme p{
+    font-size: 25px;
+   margin-left: 25px;
+   letter-spacing:2px;
+ }
+ #aboutme button{
+    width:130px;
+    height:42px;
+    border-radius:10px;
+    margin-left:650px ;
+    font-weight:bold;
+   
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+ .box{
+    box-shadow: -10px -10px rgb(124, 136, 141);
+     width: 33%;
+     height: 520px;
+     margin:15px ;
+     padding: 10px;
+     border: 3px solid #f1f1f1;
+     background-color:white;
+     
+     }
+     .box img{
+         width: 250px;
+         height: 200px;
+         margin-left: 70px;
+     }
+     .box .grt{
+         text-align: center;
+     }
+     .box .center{
+ text-align: center;
+     }
+     #service{
+         display: flex;
+     }
+     #services-container .grt{
+         color:black;
+     text-align: center;
+     font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+     }
+     #services-container button{
+
+        width: 170px;
+        background-color: black;
+        color: white;
+        height: 30px;
+       margin-left: 100px;
+     }
+
+     #services-container button:hover{
+        background-color:white;
+        color:black;
+        border-radius: 2px;
+        padding: 3px;
+        transform: scale(1.3);
+
+     }
+
+     #team-container .grt{
+        color:black;
+    text-align: center;
+    font-size: 35px;
+   margin-top: 15px;
+   margin-bottom: 20px;
+    }
+
+    #team-container button{
+        width: 170px;
+        background-color: black;
+        color: white;
+        height: 30px;
+       margin-left: 100px;
+    }
+
+  #team-container button:hover{
+    background-color:white;
+    color:black;
+    border-radius: 3px;
+    padding: 2px;
+    transform: scale(1.3);
+         
+     }
+
+    #contact_section{
+
+
+
+
+        height: 500px;
+        padding-bottom: 24px;
+    margin-top: 25px;
+         
+        background: url(contact1.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+ background-position: absolute;
+ font-size: 20px;
+    }  
+    #contact_section .grt{
+        color:whitesmoke;
+    text-align: center;
+    font-size: 35px;
+   margin-top: 15px;
+   margin-bottom: 20px; 
+    }
+    .form-group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-group .btn{
+        margin-bottom: 25px;
+    }
+    label{
+        width: 100px;
+        display:inline-block;
+        color: whitesmoke;
+    }
+    input{
+        width: 45%;
+        height: 40px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .form-group textarea{
+        height: 70px;
+      
+width: 410px;
+    }
+    .form-group{
+        display: block;
+    margin-left: 450px;
+    }
+    #contact_section .btn{
+        width: 170px;
+        background-color: black;
+        color: white;
+        height: 30px;
+       margin-left: 100px;
+       
+    }
+    #contact_section .btn:hover{
+        background-color:white;
+        color:black;
+        border-radius: 2px;
+        padding: 2px;
+        transform: scale(1.3);
+    }
+
+    footer{
+        background-color: black;
+        text-align: center;
+        color: white;
+    }
+    footer:hover{
+        background-color:white;
+        color:black;
+        border-radius: 2px;
+        padding: 2px;
+        
+
+    }
+   
